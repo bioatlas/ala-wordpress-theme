@@ -1,6 +1,8 @@
 library(magick)
 
-base <- "~/repos/bioatlas/wordpress-docker/themes/atlas/ala-wordpress-theme-master/img/"
+# local directory for image folder subdir of the contents from
+# git clone git@github.com:bioatlas/bioatlas-wordpress-theme.git
+base <- "~/repos/bioatlas/bioatlas-wordpress-theme/img/"
 
 bird <-
   "https://dina-web.net/naturalist/media/get-stream/1be36952-9bf1-4a34-91dd-429aa23b6e9f.jpeg" %>%
@@ -132,3 +134,7 @@ footer <-
   image_transparent(color = "white")
 
 image_write(footer, paste0(base, "logos.png"))
+
+library(webshot)
+webshot("https://wordpress.bioatlas.se",
+  file = " ~/repos/bioatlas/bioatlas-wordpress-theme/screenshot.png")
