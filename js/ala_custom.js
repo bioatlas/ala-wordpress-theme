@@ -50,21 +50,32 @@ jQuery(window).load(function($) {
 jQuery(document).ready(function($) {
 
     // Change banner images based on month - format jtron-bg-month-01-770px.jpg
-    if ($('#ala-jumbotron').length) { 
-        var month = ("0" + new Date().getMonth()).slice(-2); // note getMonth is zero-indexed, so Jan is 00
-        var filename = "/wp-content/themes/ala-wordpress-theme/img/jtron-bg-month-" + month + "-770px.jpg"
+    if ($('#ala-jumbotron').length) { //if (document.getElementById("ala-jumbotron")) {
+        var month = ("0" + new Date().getMonth()).slice(-2);
+        var filename = "/wp-content/themes/atlas/img/jtron-bg-month-" + month + "-770px.jpg"
         document.getElementById("ala-jumbotron").style.backgroundImage = "url('" + filename + "')";
     }
  
     // update ALA stats
     if ($(".main-stats").length) {
-        var statsUrl = "https://dashboard.ala.org.au/dashboard/homePageStats";
-        $.getJSON(statsUrl, function(data) {
-            updateStats("#allRecords", data.recordCounts.count.toLocaleString());
-            updateStats("#allSpecies", data.speciesCounts.count.toLocaleString());
-            updateStats("#allDownloads", data.downloadCounts.events.toLocaleString());
-            updateStats("#allUsers", data.userCounts.count.toLocaleString());
+
+        //var statsUrl = "https://bioatlas.se/dashboard/homePageStats";
+
+        var statsUrl1 = "https://bioatlas.se/collectory/ws/institution/count";
+        $.getJSON(statsUrl1, function(data) {
+             updateStats("#allInstitutions", data.total.toLocaleString());
         });
+
+        var statsUrl2 = "https://bioatlas.se/collectory/ws/collection/count";
+        $.getJSON(statsUrl2, function(data) {
+            updateStats("#allDatasets", data.total.toLocaleString());
+        });
+
+        var statsUrl3 = "https://bioatlas.se/biocache-service/occurrences/search?q=*:*&facet=off&pageSize=0";
+        $.getJSON(statsUrl3, function(data) {
+            updateStats("#allRecords", data.totalRecords.toLocaleString());
+        });
+
     }
     
     // Add floating table of contents (ToC)
@@ -104,7 +115,7 @@ jQuery(document).ready(function($) {
 
 
 	// autocomplete for search inputs
-	$(".autocomplete").autocomplete('https://bie.ala.org.au/ws/search/auto.jsonp', {
+	$(".autocomplete").autocomplete('https://bioatlas.se/ws/search/auto.jsonp', {
 		extraParams: {limit: 100},
 		dataType: 'jsonp',
 		parse: function(data) {
