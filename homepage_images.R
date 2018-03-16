@@ -136,5 +136,14 @@ footer <-
 image_write(footer, paste0(base, "logos.png"))
 
 library(webshot)
-webshot("https://wordpress.bioatlas.se",
-  file = " ~/repos/bioatlas/bioatlas-wordpress-theme/screenshot.png")
+
+webshot("https://wordpress.bioatlas.se")
+
+theme_logo <-
+#  "~/repos/bioatlas/bioatlas-wordpress-theme/screenshot.png" %>%
+  "webshot.png" %>%
+  image_read() %>%
+  image_scale("600x417^") %>% image_crop("600x417")
+
+image_write(theme_logo,
+  path = "~/repos/bioatlas/bioatlas-wordpress-theme/screenshot.png")
