@@ -57,7 +57,7 @@
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="https://bioatlas.se/generic-hub/search">Search species occurrences</a></li>
+              <li><a href="https://bioatlas.se/ala-hub/search">Search species occurrences</a></li>
               <li class="divider"></li>
               <li><a href="https://bioatlas.se/collectory/">Search Data Partners</a></li>
               <li><a href="https://bioatlas.se/collectory/datasets/">Search Datasets</a></li>
@@ -71,8 +71,8 @@
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="https://bioatlas.se/generic-hub/search#tab_spatialSearch">Explore by polygon</a></li>
-              <li><a href="https://bioatlas.se/generic-hub/explore/your-area">Explore your location</a></li>
+              <li><a href="https://bioatlas.se/ala-hub/search#tab_spatialSearch">Explore by polygon</a></li>
+              <li><a href="https://bioatlas.se/ala-hub/explore/your-area">Explore your location</a></li>
               <li class="divider"></li>
  <!--             <li><a href="https://downloads.ala.org.au">Download data</a>
               <li><a href="http://spatial.ala.org.au/">Spatial portal</a></li>

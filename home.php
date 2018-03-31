@@ -102,7 +102,7 @@
           <div class="panel-body">
             <h3><a href="/explore-by-location/">Explore by Location</a></h3>
             <p class="help-block">
-              Browse species by pre-defined <a href="https://bioatlas.se/generic-hub/search">region</a> or by <a href="https://bioatlas.se/explore/your-area">location</a>.
+              Browse species by pre-defined <a href="https://bioatlas.se/ala-hub/search">region</a> or by <a href="https://bioatlas.se/explore/your-area">location</a>.
             </p>
           </div>
         </div>

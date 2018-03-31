@@ -14,10 +14,10 @@
         <div class="col-xs-6 col-sm-3 col-lg-3 hidden-print">
           <h5>Start exploring</h5>
           <ul class="link-list">
-            <li><a href="https://bioatlas.se/generic-hub">Browse collections and data partners</a></li>
+            <li><a href="https://bioatlas.se/ala-hub">Browse collections and data partners</a></li>
             <li><a href="https://bioatlas.se/explore/your-area">Explore your area</a></li>
             <li><a href="https://bioatlas.se/regions/">Explore regions</a></li>
-            <li><a href="https://bioatlas.se/generic-hub/search">Search occurrence records</a></li>
+            <li><a href="https://bioatlas.se/ala-hub/search">Search occurrence records</a></li>
           </ul>
         </div>
 
@@ -64,7 +64,7 @@
         <div class="col-md-4 col-sm-12 footer-bonus-item">
           <h5 class="footer-bonus-heading">Explore the Spatial Portal</h5>
           <a href="https://bioatlas.se/spatial" title="Spatial portal" class="footer-bonus-link">
-            <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/footer-bonus-spatial-portal-icon.png" alt="Spatial Portal icon">
+            <img class="img-responsive" src="https://bioatlas.se/static/img/footer-bonus-spatial-portal-icon.png" alt="Spatial Portal icon">
           </a>
           <p class="footer-bonus-description"><a href="https://bioatlas.se/spatial/">Explore species occurrence records</a> in the context of their environment. Find records and model species distributions. Export reports, maps and data.</p>
         </div>
