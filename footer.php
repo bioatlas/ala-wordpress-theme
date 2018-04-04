@@ -64,7 +64,7 @@
         <div class="col-md-4 col-sm-12 footer-bonus-item">
           <h5 class="footer-bonus-heading">Explore the Spatial Portal</h5>
           <a href="https://bioatlas.se/spatial" title="Spatial portal" class="footer-bonus-link">
-            <img class="img-responsive" src="https://bioatlas.se/static/img/footer-bonus-spatial-portal-icon.png" alt="Spatial Portal icon">
+            <img class="img-responsive" src="https://bioatlas.se/static/bs3/img/footer-bonus-spatial-portal-icon.png" alt="Spatial Portal icon">
           </a>
           <p class="footer-bonus-description"><a href="https://bioatlas.se/spatial/">Explore species occurrence records</a> in the context of their environment. Find records and model species distributions. Export reports, maps and data.</p>
         </div>
