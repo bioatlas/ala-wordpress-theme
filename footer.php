@@ -14,20 +14,23 @@
         <div class="col-xs-6 col-sm-3 col-lg-3 hidden-print">
           <h5>Start exploring</h5>
           <ul class="link-list">
-            <li><a href="https://bioatlas.se/ala-hub">Browse collections and data partners</a></li>
-            <li><a href="https://bioatlas.se/explore/your-area">Explore your area</a></li>
-            <li><a href="https://bioatlas.se/regions/">Explore regions</a></li>
-            <li><a href="https://bioatlas.se/ala-hub/search">Search occurrence records</a></li>
+            <li><a href="https://bioatlas.se/generic-hub/">Search occurrence records</a></li>
+            <li><a href="https://bioatlas.se/collectory">Browse collections and data partners</a></li>
+            <li><a href="https://bioatlas.se/collectory/datasets">Search datasets</a></li>
+            <li><a href="https://bioatlas.se/images/">View images</a></li>
           </ul>
         </div>
 
         <div class="col-xs-6 col-sm-3 col-lg-3 hidden-print">
           <h5>Search &amp; analyse</h5>
           <ul class="link-list">
-            <li><a href="https://bioatlas.se/datasets">Search datasets</a></li>
-            <li><a href="https://bioatlas.se/downloads">Download data</a>
-            <li><a href="https://bioatlas.se/spatial">Spatial portal</a></li>
-            <li><a href="https://bioatlas.se/dashboard">Bioatlas dashboard</a></li>
+            <li><a href="https://bioatlas.se/generic-hub/explore/your-area">Explore your area</a></li>
+            <li><a href="/regions/">Explore regions</a></li>
+            <!--<li><a href="https://bioatlas.se/downloads">Download data</a>-->
+            <li><a href="/spatial-portal/">Spatial portal</a></li>
+            <li><a href="/mirroreum/">Mirroreum</a></li>
+            <!--<li><a href="https://bioatlas.se/dashboard">BioAtlas dashboard</a></li>-->
+            <li><a href="https://bioatlas.se/api/">Our APIs</a></li>
           </ul>
         </div>
 
@@ -36,25 +39,25 @@
         </div>
 
         <div class="col-xs-6 col-sm-3 col-lg-3 hidden-print">
-          <h5 class="footer-second-row">About</h5>
-          <ul class="link-list">
-            <li><a href="https://bioatlas.se/api/">APIs</a></li>
-	        <li><a href="https://bioatlas.se/atlascommunity/">Living Atlases Community</a></li>
-	        <li><a href="https://bioatlas.se/gbifnetwork/">GBIF Network</a></li>
- 	        <li><a href="https://bioatlas.se/about/">About Bioatlas</a></li>
-	        <li><a href="https://bioatlas.se/contacts/">Contact Us</a></li>
+         <h5 class="footer-second-row">About</h5>
+         <ul class="link-list">
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/the-living-atlases-community/">Living Atlases Community</a></li>
+	        <li><a href="/the-gbif-network/">GBIF Network</a></li>
+          <li><a href="/privacy-policy/">Privacy policy</a></li>
+ 	        <li><a href="/contact/">Contact Us</a></li>
           </ul>
         </div>
         <div class="col-xs-6 col-sm-3 col-lg-3 hidden-print">
           <h5 class="footer-second-row">Learn</h5>
           <ul class="link-list">
-            <li><a href="/how-to-use-ala/">How to use Bioatlas</a></li>
+            <li><a href="/how-to-use-the-bioatlas/">How to use BioAtlas</a></li>
             <li><a href="/how-to-work-with-data/">How to work with data</a></li>
-            <li><a href="/how-to-cite-ala/">How to cite Bioatlas</a></li>
-            <li><a href="/education-resources/">Education resources</a></li>
-            <li><a href="/blogs-news/">Bioatlas News</a></li>
-            <li><a href="/about-the-atlas/contact-us/">Contact us</a></li>
-            <li><a href="/about-the-atlas/feedback-form/">Feedback form</a></li>
+            <li><a href="/how-to-cite-the-bioatlas/">How to cite BioAtlas</a></li>
+            <!--<li><a href="/education-resources/">Education resources</a></li>-->
+            <li><a href="/category/news/">BioAtlas News</a></li>
+            <li><a href="/Events">Events Calendar</a></li>
+            <!--<li><a href="/about-the-atlas/feedback-form/">Feedback form</a></li>-->
           </ul>
         </div>
 
@@ -63,10 +66,10 @@
       <div class="row footer-bonus">
         <div class="col-md-4 col-sm-12 footer-bonus-item">
           <h5 class="footer-bonus-heading">Explore the Spatial Portal</h5>
-          <a href="https://bioatlas.se/spatial" title="Spatial portal" class="footer-bonus-link">
-            <img class="img-responsive" src="https://bioatlas.se/static/bs3/img/footer-bonus-spatial-portal-icon.png" alt="Spatial Portal icon">
+          <a href="/spatial-portal/" title="Spatial portal" class="footer-bonus-link">
+            <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/footer-bonus-spatial-portal-icon.png" alt="Spatial Portal icon">
           </a>
-          <p class="footer-bonus-description"><a href="https://bioatlas.se/spatial/">Explore species occurrence records</a> in the context of their environment. Find records and model species distributions. Export reports, maps and data.</p>
+          <p class="footer-bonus-description"><a href="/spatial-portal/">Explore species occurrence records</a> in the context of their environment. Find records and model species distributions. Export reports, maps and data.</p>
         </div>
 <!--
         <div class="col-md-4 col-sm-12 footer-bonus-item">
@@ -96,7 +99,7 @@
       <!-- Logo section -->
       <div class="row">
         <div class="col-md-12">
-          <h5 class="footer-bonus-heading">The Bioatlas is made possible by contributions from its partners, and is based on work financed by the Swedish Research Council through Grant No 2017-00688.</h5>
+          <h5 class="footer-bonus-heading">The BioAtlas is made possible by contributions from its partners, and is based on work financed by the Swedish Research Council through Grant No 2017-00688.</h5>
         </div>
       </div>
 
@@ -107,7 +110,19 @@
           <a href="https://www.csiro.au/" target="_blank" id="csiro"></a>
 -->
           <a href="https://www.gbif.org/" target="_blank" class="img-responsive" id="gbif"></a>
-		  <a href="https://bioatlas.se/" target="_blank" class="img-responsive" id="bas"></a>
+          <a href="https://www.slu.se/en/subweb/swedish-lifewatch/" target="_blank" class="img-responsive" id="slw"></a>
+          <a href="https://ki.se/en/startpage" target="_blank" class="img-responsive" id="ki"></a>
+          <a href="https://www.kth.se/" target="_blank" class="img-responsive" id="kth"></a>
+          <a href="https://lnu.se/" target="_blank" class="img-responsive" id="liu"></a>
+          <a href="https://www.lu.se/" target="_blank" class="img-responsive" id="lu"></a>
+          <a href="http://www.nrm.se/" target="_blank" class="img-responsive" id="nrm"></a>
+          <a href="https://www.su.se/" target="_blank" class="img-responsive" id="su"></a>
+          <a href="https://www.uu.se/" target="_blank" class="img-responsive" id="uu"></a>
+          <!--<a href="https://www.scilifelab.se/s" target="_blank" class="img-responsive" id="sll"></a>-->
+          <a href="https://www.ala.org.au/" target="_blank" class="img-responsive" id="ala"></a>
+          <a href="https://www.vr.se/" target="_blank" class="img-responsive" id="vr"></a>
+          
+   
         </div>
       </div>
       <!-- End logo section -->

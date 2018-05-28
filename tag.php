@@ -11,10 +11,10 @@ get_header(); ?>
 <div id="main" class="container dmbs-container">
 <!-- tag.php -->
   <div class="col-xs-12">
-    <h1 class="hidden">Welcome to the Atlas of Living Australia</h1>
+    <h1 class="hidden">Welcome to BioAtlas Sweden</h1>
     <ol class="breadcrumb hidden-print">
       <li><a class="font-xxsmall" href="/">Home</a></li>
-      <li><a class="font-xxsmall" href="/blogs-news/">Blogs &amp; news updates</a></li>
+      <li><a class="font-xxsmall" href="/category/news/">BioAtlas News</a></li>
       <li class="font-xxsmall active"><?php single_tag_title(); ?></li>
     </ol>
     <h2 class="heading-medium">Tag: <?php single_tag_title(); ?></h2>
