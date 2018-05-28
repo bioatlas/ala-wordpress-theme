@@ -11,10 +11,10 @@ get_header(); ?>
       <div class="row">
         <ul class="breadcrumb-list">
           <li><a href="/">Home</a></li>
-<?php if ( get_cat_slug($cat) == "blogs-news" ) : ?>
-          <li>ALA News</li>
+<?php if ( get_cat_slug($cat) == "news" ) : ?>
+          <li>BioAtlas News</li>
 <?php else: ?>
-          <li><a href="/blogs-news/">ALA News</a></li>
+          <li><a href="/category/news/">BioAtlas News</a></li>
           <li active"><?php single_cat_title(); ?></li>
 <?php endif; ?>
         </ul>
@@ -40,9 +40,9 @@ $args = array(
 ?>
           <div class=" col-md-12 col-sm-12"><h5 class="subject-category-overline">Channel</h5></div>
           <div class="col-md-8 col-sm-12">
-<?php if ( get_cat_slug($cat) == "blogs-news" ) : ?>
-          <h2 class="subject-title">ALA Blog</h2>
-          <h3 class="subject-subtitle">News and events from around the ALA community.</h3>
+<?php if ( get_cat_slug($cat) == "news" ) : ?>
+          <h2 class="subject-title">BioAtlas Blog</h2>
+          <h3 class="subject-subtitle">News and events from the BioAtlas community.</h3>
 <?php else: ?>
           <h2 class="subject-title"><?php single_cat_title(); ?></h2>
           <h3 class="subject-subtitle"><?php echo category_description($cat); ?></h3>
