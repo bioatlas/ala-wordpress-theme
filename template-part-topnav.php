@@ -14,6 +14,7 @@
       </div>
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<!--
         <div class="row row-search">
           <div class="col-xs-12 col-sm-4 col-md-6">
             <form id="global-search" class="banner" action="https://bioatlas.se/ala-bie/search" method="get" name="search-form">
@@ -23,7 +24,7 @@
               </div>
             </form>
           </div>
-<!--
+
           <div class="col-md-2 hidden-xs">
 <?php if (is_user_logged_in() ) { ?>
             <ul class="nav navbar-nav navbar-right nav-logged-in">
