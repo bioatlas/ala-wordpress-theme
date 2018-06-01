@@ -56,7 +56,7 @@
             <li><a href="/how-to-cite-the-bioatlas/">How to cite BioAtlas</a></li>
             <!--<li><a href="/education-resources/">Education resources</a></li>-->
             <li><a href="/category/news/">BioAtlas News</a></li>
-            <li><a href="/Events">Events Calendar</a></li>
+            <li><a href="/events/">Events Calendar</a></li>
             <!--<li><a href="/about-the-atlas/feedback-form/">Feedback form</a></li>-->
           </ul>
         </div>
