@@ -14,8 +14,8 @@
       </div>
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-<!--
         <div class="row row-search">
+	<!--
           <div class="col-xs-12 col-sm-4 col-md-6">
             <form id="global-search" class="banner" action="https://bioatlas.se/ala-bie/search" method="get" name="search-form">
               <div class="icon-addon addon-lg">
@@ -26,7 +26,7 @@
           </div>
 
           <div class="col-md-2 hidden-xs">
-<?php if (is_user_logged_in() ) { ?>
+	  <?php if (is_user_logged_in() ) { ?>
             <ul class="nav navbar-nav navbar-right nav-logged-in">
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -41,14 +41,13 @@
                 </ul>
               </li>
             </ul>
-<?php } else { ?>
+	  <?php } else { ?>
             <ul class="nav navbar-nav navbar-right nav-login">
               <li><a href="<?php echo wp_login_url( home_url() ); ?>">Log in</a></li>
             </ul> 
-<?php } ?>
-
+	  <?php } ?>
           </div>
--->
+	-->
 
         </div><!-- End row -->
         <ul class="nav navbar-nav">
@@ -117,7 +116,7 @@
               <li><a href="/category/news/">BioAtlas News</a></li>
               <li class="divider"></li>
               <li><a href="/privacy-policy/">Privacy Policy</a></li>
-              <li><a href="/contact/">Contact Us</a></li>                            
+              <li><a href="/contact/">Contact Us</a></li>
             </ul>
           </li>
         </ul>
