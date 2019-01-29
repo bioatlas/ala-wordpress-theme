@@ -4,7 +4,7 @@
 
 <div class="jumbotron ala-header hidden-print" id="ala-jumbotron" style="background-image: url(&quot;/wp-content/themes/atlas/img/jtron-bg-month-02-770px.gif&quot;);">
     <div class="container">
-      <div class="col-lg-6 col-md-8 col-sm-12 promotional"><strong>Biodiversity Atlas Sweden</strong> is a collaborative research infrastructure that aggregates biodiversity data from multiple sources and makes it freely available and usable online.</div>
+      <div class="col-lg-6 col-md-8 col-sm-12 promotional"><strong>Biodiversity Atlas Sweden</strong> is part of the <strong>Swedish Biodiversity Data Infrastructure</strong>, which aggregates Swedish biodiversity data and makes it freely available and usable online.</div>
     </div>
   </div>
 <?php // theloop - but only for the alert
