@@ -15,16 +15,16 @@
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <div class="row row-search">
-	<!--
+
           <div class="col-xs-12 col-sm-4 col-md-6">
-            <form id="global-search" class="banner" action="https://bioatlas.se/ala-bie/search" method="get" name="search-form">
+            <form id="global-search" class="banner" action="https://beta.bioatlas.se/ala-bie/search" method="get" name="search-form">
               <div class="icon-addon addon-lg">
                 <input type="text" placeholder="Search the Atlas ..." class="form-control autocomplete" id="biesearch" name="q">
                 <label for="biesearch" class="glyphicon glyphicon-search" rel="tooltip" title="search"></label>
               </div>
             </form>
           </div>
-
+          <--
           <div class="col-md-2 hidden-xs">
 	  <?php if (is_user_logged_in() ) { ?>
             <ul class="nav navbar-nav navbar-right nav-logged-in">
@@ -34,8 +34,8 @@
                   <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="https://auth.ala.org.au/userdetails/myprofile/">View profile</a></li>
-                  <li><a href="https://auth.ala.org.au/userdetails/registration/editAccount">Account settings</a></li>
+                  <li><a href="https://auth.bioatlas.se/userdetails/myprofile/">View profile</a></li>
+                  <li><a href="https://auth.bioatlas.se/userdetails/registration/editAccount">Account settings</a></li>
                   <li class="divider"></li>
                   <li><a href="<?php echo wp_logout_url( home_url() ); ?>">Log out</a></li>
                 </ul>
@@ -44,7 +44,7 @@
 	  <?php } else { ?>
             <ul class="nav navbar-nav navbar-right nav-login">
               <li><a href="<?php echo wp_login_url( home_url() ); ?>">Log in</a></li>
-            </ul> 
+            </ul>
 	  <?php } ?>
           </div>
 	-->
@@ -57,12 +57,12 @@
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="https://bioatlas.se/generic-hub/">Search species occurrences</a></li>
+              <li><a href="https://beta.bioatlas.se/ala-hub/">Search species occurrences</a></li>
               <li class="divider"></li>
-              <li><a href="https://bioatlas.se/collectory/">Search Data Partners</a></li>
-              <li><a href="https://bioatlas.se/collectory/datasets/">Search Datasets</a></li>
+              <li><a href="https://beta.bioatlas.se/collectory/">Search Data Partners</a></li>
+              <li><a href="https://beta.bioatlas.se/collectory/datasets/">Search Datasets</a></li>
               <li class="divider"></li>
-              <li><a href="https://bioatlas.se/images/">View images</a></li>
+              <li><a href="https://beta.bioatlas.se/images/">View images</a></li>
             </ul>
           </li>
           <li class="dropdown">
@@ -71,17 +71,17 @@
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="https://bioatlas.se/generic-hub/search#tab_spatialSearch">Explore by polygon</a></li>
-              <li><a href="https://bioatlas.se/generic-hub/explore/your-area">Explore by location</a></li>
+              <li><a href="https://beta.bioatlas.se/ala-hub/search#tab_spatialSearch">Explore by polygon</a></li>
+              <li><a href="https://beta.bioatlas.se/ala-hub/explore/your-area">Explore by location</a></li>
               <li><a href="/regions/">Explore by region</a></li>
               <li class="divider"></li>
  <!--             <li><a href="https://downloads.ala.org.au">Download data</a>
  -->
-              <li><a href="/spatial-portal/">Spatial portal</a></li>
+              <li><a href="/spatial-hub/">Spatial portal</a></li>
               <li class="divider"></li>
               <li><a href="/mirroreum/">Mirroreum</a></li>
               <li class="divider"></li>
-              <li><a href="https://bioatlas.se/api/">Our APIs</a></li>
+              <li><a href="https://beta.bioatlas.se/api/">Our APIs</a></li>
             </ul>
           </li>
 <!--
@@ -122,8 +122,8 @@
         </ul>
         <ul class="nav navbar-nav navbar-right visible-xs">
 <?php if (is_user_logged_in() ) { ?>
-          <li><a href="https://auth.ala.org.au/userdetails/myprofile/"><span class="nav-login">View profile</span></a></li>
-          <li><a href="https://auth.ala.org.au/userdetails/registration/editAccount"><span class="nav-login">Account settings</span></a></li>
+          <li><a href="https://auth.bioatlas.se/userdetails/myprofile/"><span class="nav-login">View profile</span></a></li>
+          <li><a href="https://auth.bioatlas.se/userdetails/registration/editAccount"><span class="nav-login">Account settings</span></a></li>
           <li><a href="<?php echo wp_logout_url( home_url() ); ?>"><span class="nav-login">Log out</span></a></li>
 <?php } else { ?>
           <li><a href="<?php echo wp_login_url( home_url() ); ?>"><span class="nav-login">Log in</span></a></li>
@@ -133,4 +133,3 @@
     </div><!-- /.container-fluid -->
   </nav>
   <!-- End Navbar -->
-
