@@ -24,31 +24,6 @@
               </div>
             </form>
           </div>
-          <--
-          <div class="col-md-2 hidden-xs">
-	  <?php if (is_user_logged_in() ) { ?>
-            <ul class="nav navbar-nav navbar-right nav-logged-in">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                  My profile
-                  <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="https://auth.bioatlas.se/userdetails/myprofile/">View profile</a></li>
-                  <li><a href="https://auth.bioatlas.se/userdetails/registration/editAccount">Account settings</a></li>
-                  <li class="divider"></li>
-                  <li><a href="<?php echo wp_logout_url( home_url() ); ?>">Log out</a></li>
-                </ul>
-              </li>
-            </ul>
-	  <?php } else { ?>
-            <ul class="nav navbar-nav navbar-right nav-login">
-              <li><a href="<?php echo wp_login_url( home_url() ); ?>">Log in</a></li>
-            </ul>
-	  <?php } ?>
-          </div>
-	-->
-
         </div><!-- End row -->
         <ul class="nav navbar-nav">
           <li class="dropdown">
