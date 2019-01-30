@@ -64,6 +64,7 @@
       </div>
 
       <div class="row footer-bonus">
+<!--
         <div class="col-md-4 col-sm-12 footer-bonus-item">
           <h5 class="footer-bonus-heading">Explore the Spatial Portal</h5>
           <a href="/spatial-hub/" title="Spatial portal" class="footer-bonus-link">
@@ -71,6 +72,7 @@
           </a>
           <p class="footer-bonus-description"><a href="/spatial-hub/">Explore species occurrence records</a> in the context of their environment. Find records and model species distributions. Export reports, maps and data.</p>
         </div>
+-->
 <!--
         <div class="col-md-4 col-sm-12 footer-bonus-item">
           <h5 class="footer-bonus-heading">Join a Citizen Science Project</h5>

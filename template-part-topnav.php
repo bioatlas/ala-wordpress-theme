@@ -96,13 +96,6 @@
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right visible-xs">
-<?php if (is_user_logged_in() ) { ?>
-          <li><a href="https://auth.bioatlas.se/userdetails/myprofile/"><span class="nav-login">View profile</span></a></li>
-          <li><a href="https://auth.bioatlas.se/userdetails/registration/editAccount"><span class="nav-login">Account settings</span></a></li>
-          <li><a href="<?php echo wp_logout_url( home_url() ); ?>"><span class="nav-login">Log out</span></a></li>
-<?php } else { ?>
-          <li><a href="<?php echo wp_login_url( home_url() ); ?>"><span class="nav-login">Log in</span></a></li>
-<?php } ?>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
