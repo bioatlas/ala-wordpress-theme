@@ -76,6 +76,11 @@ jQuery(document).ready(function($) {
             updateStats("#allRecords", data.totalRecords.toLocaleString());
         });
 
+        var statsUrl4 = "https://beta.bioatlas.se/biocache-service/occurrence/facets?q=*:*&facets=species&pageSize=0";
+        $.getJSON(statsUrl4, function(data) {
+            updateStats("#allSpecies", data[0].count.toLocaleString());
+        });
+
     }
     
     // Add floating table of contents (ToC)
