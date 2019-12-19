@@ -54,6 +54,8 @@
  -->
               <li><a href="/spatial-hub/">Spatial portal</a></li>
               <li class="divider"></li>
+              <li><a href="https://zoatrack.bioatlas.se/">Zoatrack</a></li>
+              <li class="divider"></li>
               <li><a href="/mirroreum/">Mirroreum</a></li>
               <li class="divider"></li>
               <li><a href="https://beta.bioatlas.se/api/">Our APIs</a></li>
