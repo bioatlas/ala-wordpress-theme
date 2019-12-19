@@ -26,8 +26,9 @@
           <ul class="link-list">
             <li><a href="https://bioatlas.se/generic-hub/explore/your-area">Explore your area</a></li>
             <li><a href="/regions/">Explore regions</a></li>
-            <!--<li><a href="https://bioatlas.se/downloads">Download data</a>-->
-            <li><a href="/spatial-portal/">Spatial portal</a></li>
+            <!--<li><a href="https://beta.bioatlas.se/downloads">Download data</a>-->
+            <li><a href="/spatial-hub/">Spatial portal</a></li>
+            <li><a href="https://zoatrack.bioatlas.se/">Zoatrack</a></li>
             <li><a href="/mirroreum/">Mirroreum</a></li>
             <!--<li><a href="https://bioatlas.se/dashboard">BioAtlas dashboard</a></li>-->
             <li><a href="https://bioatlas.se/api/">Our APIs</a></li>
