@@ -25,7 +25,7 @@ function resizeToc() {
 jQuery(window).load(function($) {
     resizePanels();
 
-    jQuery( window ).resize(function() {
+    jQuery(window).resize(function() {
         resizePanels();
         resizeToc();
     });
@@ -33,7 +33,7 @@ jQuery(window).load(function($) {
     function resizePanels() {
         var panels = jQuery('.panel.panel-default').not('.panel-blog'); // might want to use a more specific selector (e.g. add an extra class to those panel divs)
         var max = 0;
-        jQuery.each(panels, function(i,el) {
+        jQuery.each(panels, function(i, el) {
             var thisMax = jQuery(el).find('img').outerHeight() + jQuery(el).find('.panel-body').outerHeight();
             var icon = jQuery(el).find('a');
             if (max < thisMax) {
@@ -55,58 +55,58 @@ jQuery(document).ready(function($) {
         var filename = "/wp-content/themes/atlas/img/jtron-bg-month-" + month + "-770px.jpg"
         document.getElementById("ala-jumbotron").style.backgroundImage = "url('" + filename + "')";
     }
- 
+
     // update ALA stats
     if ($(".main-stats").length) {
 
-        //var statsUrl = "https://beta.bioatlas.se/dashboard/homePageStats";
+        //var statsUrl = "https://dashboard.bioatlas.se/homePageStats";
 
-        var statsUrl1 = "https://beta.bioatlas.se/collectory/ws/institution/count";
+        var statsUrl1 = "https://collections.bioatlas.se/ws/institution/count";
         $.getJSON(statsUrl1, function(data) {
-             updateStats("#allInstitutions", data.total.toLocaleString());
+            updateStats("#allInstitutions", data.total.toLocaleString());
         });
 
-        var statsUrl2 = "https://beta.bioatlas.se/collectory/ws/collection/count";
+        var statsUrl2 = "https://collections.bioatlas.se/ws/collection/count";
         $.getJSON(statsUrl2, function(data) {
             updateStats("#allDatasets", data.total.toLocaleString());
         });
 
-        var statsUrl3 = "https://beta.bioatlas.se/biocache-service/occurrences/search?q=*:*&facet=off&pageSize=0";
+        var statsUrl3 = "https://records.bioatlas.se/ws/occurrences/search?q=*:*&facet=off&pageSize=0";
         $.getJSON(statsUrl3, function(data) {
             updateStats("#allRecords", data.totalRecords.toLocaleString());
         });
 
-        var statsUrl4 = "https://beta.bioatlas.se/biocache-service/occurrence/facets?q=*:*&facets=species&pageSize=0";
+        var statsUrl4 = "https://records.bioatlas.se/ws/occurrence/facets?q=*:*&facets=species&pageSize=0";
         $.getJSON(statsUrl4, function(data) {
             updateStats("#allSpecies", data[0].count.toLocaleString());
         });
 
     }
-    
+
     // Add floating table of contents (ToC)
     if ($('#toc_container').length) {
         $('#toc_container').addClass('toc-floating-menu affix-top');
         $('#toc_container').wrapAll("<div class='col-md-3 col-md-push-9 sidebar-col' id='toc-wrapper' />");
         $('#alaEditable').children().not('#toc-wrapper').wrapAll("<div id='alaInnerEditable' class='col-md-8 col-md-pull-3' />");
         $('#alaInnerEditable').css('padding-left', '0');
-        $('.toc_title').replaceWith( "<h4>Page contents:</h4>" );
+        $('.toc_title').replaceWith("<h4>Page contents:</h4>");
         $('.toc_list').addClass('nav').wrapAll("<div class='profile-usermenu margin-bottom-2'>");
     }
 
     if ($('.navbar-fixed-top').length && $('.toc-floating-menu').length) {
         var alaHeaderHeight = $('.navbar-fixed-top').outerHeight(true); //  + $('.info-hub-banner').outerHeight(true) + $('.breadcrumb').outerHeight(true);
         var alaFooterHeight = $('footer').outerHeight(true) + $('.alert-creativecommons').outerHeight(true);
-        
+
         if ($(window).width() > 992) {
             $('.toc-floating-menu').affix({
                 offset: {
-                    top:  $('.toc-floating-menu').offset().top - alaHeaderHeight - 35,
+                    top: $('.toc-floating-menu').offset().top - alaHeaderHeight - 35,
                     bottom: alaFooterHeight
                 }
             });
         }
 
-        $(window).scroll(function () {
+        $(window).scroll(function() {
             //$('.sidebar-col').width($('.sidebarCol').width());
             resizeToc();
         });
@@ -119,32 +119,31 @@ jQuery(document).ready(function($) {
     }
 
 
-	// autocomplete for search inputs
-	$(".autocomplete").autocomplete('https://beta.bioatlas.se/ws/search/auto.jsonp', {
-		extraParams: {limit: 100},
-		dataType: 'jsonp',
-		parse: function(data) {
-			var rows = new Array();
-			data = data.autoCompleteList;
-			for(var i=0; i<data.length; i++){
-				rows[i] = {
-					data: data[i],
-					value: data[i].matchedNames[0],
-					result: data[i].matchedNames[0]
-				};
-			}
-			return rows;
-		},
-		matchSubset: false,
-		formatItem: function(row, i, n) {
-			return row.matchedNames[0];
-		},
-		cacheLength: 10,
-		minChars: 3,
-		scroll: false,
-		max: 10,
-		selectFirst: false
-	});
+    // autocomplete for search inputs
+    $(".autocomplete").autocomplete('https://species.bioatlas.se/ws/search/auto.jsonp', {
+        extraParams: { limit: 100 },
+        dataType: 'jsonp',
+        parse: function(data) {
+            var rows = new Array();
+            data = data.autoCompleteList;
+            for (var i = 0; i < data.length; i++) {
+                rows[i] = {
+                    data: data[i],
+                    value: data[i].matchedNames[0],
+                    result: data[i].matchedNames[0]
+                };
+            }
+            return rows;
+        },
+        matchSubset: false,
+        formatItem: function(row, i, n) {
+            return row.matchedNames[0];
+        },
+        cacheLength: 10,
+        minChars: 3,
+        scroll: false,
+        max: 10,
+        selectFirst: false
+    });
 
 });
-

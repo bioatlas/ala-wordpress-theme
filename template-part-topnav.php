@@ -17,7 +17,7 @@
         <div class="row row-search">
 
           <div class="col-xs-12 col-sm-4 col-md-6">
-            <form id="global-search" class="banner" action="https://beta.bioatlas.se/ala-bie/search" method="get" name="search-form">
+            <form id="global-search" class="banner" action="https://species.bioatlas.se/search" method="get" name="search-form">
               <div class="icon-addon addon-lg">
                 <input type="text" placeholder="Search the Atlas ..." class="form-control autocomplete" id="biesearch" name="q">
                 <label for="biesearch" class="glyphicon glyphicon-search" rel="tooltip" title="search"></label>
@@ -32,12 +32,12 @@
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="https://beta.bioatlas.se/ala-hub/">Search species occurrences</a></li>
+              <li><a href="https://records.bioatlas.se/">Search occurrence records</a></li>
               <li class="divider"></li>
-              <li><a href="https://beta.bioatlas.se/collectory/">Search Data Partners</a></li>
-              <li><a href="https://beta.bioatlas.se/collectory/datasets/">Search Datasets</a></li>
+              <li><a href="https://collections.bioatlas.se/">Search Data Partners</a></li>
+              <li><a href="https://collections.bioatlas.se/datasets/">Search datasets</a></li>
               <li class="divider"></li>
-              <li><a href="https://beta.bioatlas.se/images/">View images</a></li>
+              <li><a href="https://images.bioatlas.se/">View images</a></li>
             </ul>
           </li>
           <li class="dropdown">
@@ -46,21 +46,18 @@
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="https://beta.bioatlas.se/ala-hub/search#tab_spatialSearch">Explore by polygon</a></li>
-              <li><a href="https://beta.bioatlas.se/ala-hub/explore/your-area">Explore by location</a></li>
-              <li><a href="/regions/">Explore by region</a></li>
+              <li><a href="https://records.bioatlas.se/search#tab_spatialSearch">Explore by polygon</a></li>
+              <li><a href="https://records.bioatlas.se/explore/your-area">Explore by location</a></li>
+              <li><a href="https://regions.bioatlas.se">Explore by regions</a></li>
               <li class="divider"></li>
- <!--             <li><a href="https://downloads.ala.org.au">Download data</a>
- -->
-              <li><a href="/spatial-hub/">Spatial portal</a></li>
-              <li class="divider"></li>
-              <li><a href="https://zoatrack.bioatlas.se/">Zoatrack</a></li>
-              <li class="divider"></li>
-              <li><a href="https://zoatrack.bioatlas.se/">Zoatrack</a></li>
+              <!--<li><a href="https://downloads.ala.org.au">Download data</a>-->
+              <li><a href="https://spatial.bioatlas.se">Spatial portal</a></li>
               <li class="divider"></li>
               <li><a href="/mirroreum/">Mirroreum</a></li>
               <li class="divider"></li>
-              <li><a href="https://beta.bioatlas.se/api/">Our APIs</a></li>
+              <li><a href="https://zoatrack.bioatlas.se/">Zoatrack</a></li>
+              <li class="divider"></li>
+              <li><a href="https://api.bioatlas.se">Our APIs</a></li>
             </ul>
           </li>
 <!--
@@ -83,19 +80,28 @@
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="/about/">About Us</a></li>
-              <li class="divider"></li>
+                          <li><a href="/about/">About Bioatlas</a></li>
+            <li class="divider"></li>
+            <li><a href="/the-living-atlases-community/">Living Atlases Community</a></li>
+            <li><a href="/the-gbif-network/">GBIF Network</a></li>
+            <li class="divider"></li>
+            <li><a href="/category/news/">BioAtlas News</a></li>
+            <li class="divider"></li>
+            <li><a href="/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="/contact/">Contact Us</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              Learn
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
               <li><a href="/how-to-use-the-bioatlas/">How to use the BioAtlas</a></li>
               <li><a href="/how-to-work-with-data/">How to work with data</a></li>
               <li><a href="/how-to-cite-the-bioatlas/">How to cite the BioAtlas</a></li>
               <li class="divider"></li>
-              <li><a href="/the-living-atlases-community/">Living Atlases Community</a></li>
-              <li><a href="/the-gbif-network/">GBIF Network</a></li>
-              <li class="divider"></li>
-              <li><a href="/category/news/">BioAtlas News</a></li>
-              <li class="divider"></li>
-              <li><a href="/privacy-policy/">Privacy Policy</a></li>
-              <li><a href="/contact/">Contact Us</a></li>
+              <li><a href="/events/">Events Calendar</a></li>
             </ul>
           </li>
         </ul>

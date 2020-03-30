@@ -41,26 +41,26 @@
         <div class="main-stats col-lg-3 col-md-3 col-sm-6">
           <h4>Occurrence Records</h4>
           <div class="stat-number" id="allRecords">
-            72,710,155
+            0
           </div>
         </div>
 
         <div class="main-stats col-lg-3 col-md-3 col-sm-6">
           <h4>Institutions</h4>
           <div class="stat-number" id="allInstitutions">
-            17
+            0
           </div>
         </div>
         <div class="main-stats col-lg-3 col-md-3 col-sm-6">
           <h4>Datasets</h4>
           <div class="stat-number" id="allDatasets">
-            43
+            0
           </div>
         </div>
         <div class="main-stats col-lg-3 col-md-3 col-sm-6">
           <h4>Species</h4>
           <div class="stat-number" id="allSpecies">
-            105,000
+            0
           </div>
         </div>
 
@@ -73,9 +73,9 @@
 <!--
       <div class="col-lg-4 col-md-4 col-sm-6">
         <div class="panel panel-default">
-          <a href="https://beta.bioatlas.se/bie/iconic-species"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-channel-image-bird.jpg" alt="Bird"></a>
+          <a href="https://speceis.bioatlas.se/iconic-species"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-channel-image-bird.jpg" alt="Bird"></a>
           <div class="panel-body">
-            <h3><a href="https://beta.bioatlas.se/bie/iconic-species">Swedish iconic species</a></h3>
+            <h3><a href="https://species.bioatlas.se/iconic-species">Swedish iconic species</a></h3>
             <p class="help-block">
               Browse some of our most popular species, or search all species in Bioatlas.
             </p>
@@ -85,9 +85,9 @@
 -->
       <div class="col-lg-4 col-md-4 col-sm-6">
         <div class="panel panel-default">
-          <a href="https://beta.bioatlas.se/collectory/"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-channel-image-bird.jpg" alt="Bird"></a>
+          <a href="https://collections.bioatlas.se/"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-channel-image-bird.jpg" alt="Bird"></a>
           <div class="panel-body">
-            <h3><a href="https://beta.bioatlas.se/collectory/">Swedish Collections and Observations</a></h3>
+            <h3><a href="https://collections.bioatlas.se/">Swedish Collections and Observations</a></h3>
             <p class="help-block">
               Browse our Swedish biodiversity collections and observation data.
             </p>
@@ -97,22 +97,22 @@
 
       <div class="col-lg-4 col-md-4 col-sm-6">
         <div class="panel panel-default">
-          <a href="https://beta.bioatlas.se/ala-hub/explore/your-area"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-channel-image-beetle.jpg" alt="Beetle"></a>
+          <a href="https://records.bioatlas.se/explore/your-area"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-channel-image-beetle.jpg" alt="Beetle"></a>
           <div class="panel-body">
-            <h3><a href="https://beta.bioatlas.se/ala-hub/explore/your-area">Explore by Location</a></h3>
+            <h3><a href="https://records.bioatlas.se/explore/your-area">Explore by Location</a></h3>
             <p class="help-block">
-              Browse species by pre-defined <a href="/regions/">region</a> or by <a href="https://beta.bioatlas.se/ala-hub/explore/your-area">location</a>.
+              Browse species by pre-defined <a href="https://regions.bioatlas.se/">region</a> or by <a href="https://records.bioatlas.se/explore/your-area">location</a>.
             </p>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-6">
         <div class="panel panel-default">
-          <a href="https://beta.bioatlas.se/ala-hub/"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-channel-image-rainbow.jpg" alt="Rainbow Beetle"></a>
+          <a href="https://spatial.bioatlas.se/"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-channel-image-rainbow.jpg" alt="Rainbow Beetle"></a>
           <div class="panel-body">
-            <h3><a href="https://beta.bioatlas.se/ala-hub/">Mapping and Analysis</a></h3>
+            <h3><a href="https://spatial.bioatlas.se/">Mapping and Analysis</a></h3>
             <p class="help-block">
-              Explore species occurrence records using the <a href="/spatial-hub/">Spatial Portal</a> or <a href="https://beta.bioatlas.se/ala-hub/">search records</a> for species occurrences.
+              Explore species occurrence records using the <a href="https://spatial.bioatlas.se/">Spatial Portal</a> or <a href="https://records.bioatlas.se/">search records</a> for species occurrences.
             </p>
           </div>
         </div>
