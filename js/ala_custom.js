@@ -59,24 +59,24 @@ jQuery(document).ready(function($) {
     // update ALA stats
     if ($(".main-stats").length) {
 
-        //var statsUrl = "https://bioatlas.se/dashboard/homePageStats";
+        //var statsUrl = "https://beta.bioatlas.se/dashboard/homePageStats";
 
-        var statsUrl1 = "https://bioatlas.se/collectory/ws/institution/count";
+        var statsUrl1 = "https://beta.bioatlas.se/collectory/ws/institution/count";
         $.getJSON(statsUrl1, function(data) {
              updateStats("#allInstitutions", data.total.toLocaleString());
         });
 
-        var statsUrl2 = "https://bioatlas.se/collectory/ws/collection/count";
+        var statsUrl2 = "https://beta.bioatlas.se/collectory/ws/collection/count";
         $.getJSON(statsUrl2, function(data) {
             updateStats("#allDatasets", data.total.toLocaleString());
         });
 
-        var statsUrl3 = "https://bioatlas.se/biocache-service/occurrences/search?q=*:*&facet=off&pageSize=0";
+        var statsUrl3 = "https://beta.bioatlas.se/biocache-service/occurrences/search?q=*:*&facet=off&pageSize=0";
         $.getJSON(statsUrl3, function(data) {
             updateStats("#allRecords", data.totalRecords.toLocaleString());
         });
 
-        var statsUrl4 = "https://bioatlas.se/biocache-service/occurrence/facets?q=*:*&facets=species&pageSize=0";
+        var statsUrl4 = "https://beta.bioatlas.se/biocache-service/occurrence/facets?q=*:*&facets=species&pageSize=0";
         $.getJSON(statsUrl4, function(data) {
             updateStats("#allSpecies", data[0].count.toLocaleString());
         });
@@ -120,7 +120,7 @@ jQuery(document).ready(function($) {
 
 
 	// autocomplete for search inputs
-	$(".autocomplete").autocomplete('https://bioatlas.se/ws/search/auto.jsonp', {
+	$(".autocomplete").autocomplete('https://beta.bioatlas.se/ws/search/auto.jsonp', {
 		extraParams: {limit: 100},
 		dataType: 'jsonp',
 		parse: function(data) {

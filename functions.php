@@ -123,7 +123,7 @@ function theme_enqueue_styles() {
 
 function do_loginscript()
 {
-	$loggedIn = 'https://auth.ala.org.au/cas/login?service='.home_url().'/wp-login.php?redirect_to='.home_url();
+	$loggedIn = 'https://auth.bioatlas.se/cas/login?service='.home_url().'/wp-login.php?redirect_to='.home_url();
 	echo $loggedIn;
 }
 

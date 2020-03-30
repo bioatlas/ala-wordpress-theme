@@ -73,9 +73,9 @@
 <!--
       <div class="col-lg-4 col-md-4 col-sm-6">
         <div class="panel panel-default">
-          <a href="https://bioatlas.se/bie/iconic-species"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-channel-image-bird.jpg" alt="Bird"></a>
+          <a href="https://beta.bioatlas.se/bie/iconic-species"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-channel-image-bird.jpg" alt="Bird"></a>
           <div class="panel-body">
-            <h3><a href="https://bioatlas.se/bie/iconic-species">Swedish iconic species</a></h3>
+            <h3><a href="https://beta.bioatlas.se/bie/iconic-species">Swedish iconic species</a></h3>
             <p class="help-block">
               Browse some of our most popular species, or search all species in Bioatlas.
             </p>
@@ -85,9 +85,9 @@
 -->
       <div class="col-lg-4 col-md-4 col-sm-6">
         <div class="panel panel-default">
-          <a href="https://bioatlas.se/collectory/"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-channel-image-bird.jpg" alt="Bird"></a>
+          <a href="https://beta.bioatlas.se/collectory/"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-channel-image-bird.jpg" alt="Bird"></a>
           <div class="panel-body">
-            <h3><a href="https://bioatlas.se/collectory/">Swedish Collections and Observations</a></h3>
+            <h3><a href="https://beta.bioatlas.se/collectory/">Swedish Collections and Observations</a></h3>
             <p class="help-block">
               Browse our Swedish biodiversity collections and observation data.
             </p>
@@ -97,22 +97,22 @@
 
       <div class="col-lg-4 col-md-4 col-sm-6">
         <div class="panel panel-default">
-          <a href="https://bioatlas.se/generic-hub/explore/your-area"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-channel-image-beetle.jpg" alt="Beetle"></a>
+          <a href="https://beta.bioatlas.se/ala-hub/explore/your-area"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-channel-image-beetle.jpg" alt="Beetle"></a>
           <div class="panel-body">
-            <h3><a href="https://bioatlas.se/generic-hub/explore/your-area">Explore by Location</a></h3>
+            <h3><a href="https://beta.bioatlas.se/ala-hub/explore/your-area">Explore by Location</a></h3>
             <p class="help-block">
-              Browse species by pre-defined <a href="/regions/">region</a> or by <a href="https://bioatlas.se/generic-hub/explore/your-area">location</a>.
+              Browse species by pre-defined <a href="/regions/">region</a> or by <a href="https://beta.bioatlas.se/ala-hub/explore/your-area">location</a>.
             </p>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-6">
         <div class="panel panel-default">
-          <a href="https://bioatlas.se/generic-hub/"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-channel-image-rainbow.jpg" alt="Rainbow Beetle"></a>
+          <a href="https://beta.bioatlas.se/ala-hub/"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-channel-image-rainbow.jpg" alt="Rainbow Beetle"></a>
           <div class="panel-body">
-            <h3><a href="https://bioatlas.se/generic-hub/">Mapping and Analysis</a></h3>
+            <h3><a href="https://beta.bioatlas.se/ala-hub/">Mapping and Analysis</a></h3>
             <p class="help-block">
-              Explore species occurrence records using the <a href="/spatial-portal/">Spatial Portal</a> or <a href="https://bioatlas.se/generic-hub/">search records</a> for species occurrences.
+              Explore species occurrence records using the <a href="/spatial-hub/">Spatial Portal</a> or <a href="https://beta.bioatlas.se/ala-hub/">search records</a> for species occurrences.
             </p>
           </div>
         </div>

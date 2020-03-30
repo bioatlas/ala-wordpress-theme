@@ -14,24 +14,24 @@
         <div class="col-xs-6 col-sm-3 col-lg-3 hidden-print">
           <h5>Start exploring</h5>
           <ul class="link-list">
-            <li><a href="https://bioatlas.se/generic-hub/">Search occurrence records</a></li>
-            <li><a href="https://bioatlas.se/collectory">Browse collections and data partners</a></li>
-            <li><a href="https://bioatlas.se/collectory/datasets">Search datasets</a></li>
-            <li><a href="https://bioatlas.se/images/">View images</a></li>
+            <li><a href="https://beta.bioatlas.se/ala-hub/">Search occurrence records</a></li>
+            <li><a href="https://beta.bioatlas.se/collectory">Browse collections and data partners</a></li>
+            <li><a href="https://beta.bioatlas.se/collectory/datasets">Search datasets</a></li>
+            <li><a href="https://beta.bioatlas.se/images/">View images</a></li>
           </ul>
         </div>
 
         <div class="col-xs-6 col-sm-3 col-lg-3 hidden-print">
           <h5>Search &amp; analyse</h5>
           <ul class="link-list">
-            <li><a href="https://bioatlas.se/generic-hub/explore/your-area">Explore your area</a></li>
+            <li><a href="https://beta.bioatlas.se/ala-hub/explore/your-area">Explore your area</a></li>
             <li><a href="/regions/">Explore regions</a></li>
             <!--<li><a href="https://beta.bioatlas.se/downloads">Download data</a>-->
             <li><a href="/spatial-hub/">Spatial portal</a></li>
             <li><a href="https://zoatrack.bioatlas.se/">Zoatrack</a></li>
             <li><a href="/mirroreum/">Mirroreum</a></li>
-            <!--<li><a href="https://bioatlas.se/dashboard">BioAtlas dashboard</a></li>-->
-            <li><a href="https://bioatlas.se/api/">Our APIs</a></li>
+            <!--<li><a href="https://beta.bioatlas.se/dashboard">BioAtlas dashboard</a></li>-->
+            <li><a href="https://beta.bioatlas.se/api/">Our APIs</a></li>
           </ul>
         </div>
 
@@ -65,13 +65,15 @@
       </div>
 
       <div class="row footer-bonus">
+<!--
         <div class="col-md-4 col-sm-12 footer-bonus-item">
           <h5 class="footer-bonus-heading">Explore the Spatial Portal</h5>
-          <a href="/spatial-portal/" title="Spatial portal" class="footer-bonus-link">
-            <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/footer-bonus-spatial-portal-icon.png" alt="Spatial Portal icon">
+          <a href="/spatial-hub/" title="Spatial portal" class="footer-bonus-link">
+            <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/footer-bonus-spatial-hub-icon.png" alt="Spatial Portal icon">
           </a>
-          <p class="footer-bonus-description"><a href="/spatial-portal/">Explore species occurrence records</a> in the context of their environment. Find records and model species distributions. Export reports, maps and data.</p>
+          <p class="footer-bonus-description"><a href="/spatial-hub/">Explore species occurrence records</a> in the context of their environment. Find records and model species distributions. Export reports, maps and data.</p>
         </div>
+-->
 <!--
         <div class="col-md-4 col-sm-12 footer-bonus-item">
           <h5 class="footer-bonus-heading">Join a Citizen Science Project</h5>
